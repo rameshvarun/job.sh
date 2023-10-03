@@ -31,7 +31,7 @@ function job_wait() {
         fi
 
         echo "Job ${JOB_NAMES[i]} exited with code $error_code..."
-        cat ${JOB_OUTPUTS[i]}
+        cat "${JOB_OUTPUTS[i]}"
     done
 
     if [[ $encountered_error == true ]]; then
