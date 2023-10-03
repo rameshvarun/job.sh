@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+
 declare -a JOB_PIDS=()
 declare -a JOB_NAMES=()
 declare -a JOB_OUTPUTS=()
