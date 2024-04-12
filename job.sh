@@ -38,5 +38,9 @@ function job_wait() {
         echo "One or more jobs failed!"
         exit 1
     fi
+    
+    JOB_PIDS=()
+    JOB_NAMES=()
+    JOB_OUTPUTS=()
 }
 
